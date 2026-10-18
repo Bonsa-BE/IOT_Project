@@ -5943,16 +5943,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 135.89) (xy 125.73 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13cae99e-4445-4ce6-b20f-76d3feba8bc2")
-	)
-	(wire
-		(pts
 			(xy 105.41 63.5) (xy 105.41 64.77)
 		)
 		(stroke
@@ -6080,16 +6070,6 @@
 			(type default)
 		)
 		(uuid "25bbfafb-ae57-43b9-8dde-3cd32a2dfffd")
-	)
-	(wire
-		(pts
-			(xy 128.27 138.43) (xy 125.73 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27271337-26a8-4dc5-80cb-4755c76cef92")
 	)
 	(wire
 		(pts
@@ -6250,16 +6230,6 @@
 			(type default)
 		)
 		(uuid "322cc239-172d-4be7-a280-71ad640e853d")
-	)
-	(wire
-		(pts
-			(xy 128.27 140.97) (xy 125.73 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3410e0d9-c200-45aa-9b5c-733ef518f11d")
 	)
 	(wire
 		(pts
@@ -6600,16 +6570,6 @@
 			(type default)
 		)
 		(uuid "5c3b73ce-abcb-47c7-aaea-a5f6a851e10d")
-	)
-	(wire
-		(pts
-			(xy 128.27 120.65) (xy 125.73 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e84cf77-c5b4-4b0f-b066-e447d0d10257")
 	)
 	(wire
 		(pts
@@ -6960,16 +6920,6 @@
 			(type default)
 		)
 		(uuid "85422edf-e24d-4880-98b2-29c034c609b2")
-	)
-	(wire
-		(pts
-			(xy 128.27 118.11) (xy 125.73 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86caeb64-c8ef-406e-b804-0c700f94bf24")
 	)
 	(wire
 		(pts
@@ -7340,16 +7290,6 @@
 			(type default)
 		)
 		(uuid "ad5c2a8b-029b-440f-bd0f-4c322a617b8d")
-	)
-	(wire
-		(pts
-			(xy 128.27 115.57) (xy 125.73 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae23ba61-dbe3-40a2-a1c5-5b0048684ec9")
 	)
 	(wire
 		(pts
@@ -7753,16 +7693,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 123.19) (xy 125.73 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e07b7ee9-130b-4ebf-93d5-8ba4d7b0e106")
-	)
-	(wire
-		(pts
 			(xy 107.95 158.75) (xy 107.95 160.02)
 		)
 		(stroke
@@ -7800,16 +7730,6 @@
 			(type default)
 		)
 		(uuid "e2da6e1f-53ec-4fb3-9b90-6688acb65860")
-	)
-	(wire
-		(pts
-			(xy 128.27 125.73) (xy 125.73 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e325fcde-d194-4dca-bf26-8f1ecabbed49")
 	)
 	(wire
 		(pts
@@ -8150,16 +8070,6 @@
 			(justify left bottom)
 		)
 		(uuid "40b3ad15-374f-4a50-8237-43ee6ccb38f5")
-	)
-	(label "I2C3_SDA"
-		(at 139.7 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4352dbb9-ebf8-4cfe-89e4-96bd23e0c2d7")
 	)
 	(label "SPI1_CS"
 		(at 78.74 110.49 0)
