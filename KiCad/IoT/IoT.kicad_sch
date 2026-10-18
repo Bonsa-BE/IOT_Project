@@ -5538,6 +5538,18 @@
 		(uuid "77a048e3-7408-4317-b08e-fe34976bc23f")
 	)
 	(junction
+		(at 134.62 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7acbe9a2-690a-444b-8d40-b6523ee478f7")
+	)
+	(junction
+		(at 134.62 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b0323bf-df24-4968-8e0d-d0b913376d7b")
+	)
+	(junction
 		(at 44.45 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5991,6 +6003,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 49.53) (xy 140.97 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a935e22-e418-4a93-b541-3a01163cde22")
+	)
+	(wire
+		(pts
 			(xy 218.44 132.08) (xy 218.44 130.81)
 		)
 		(stroke
@@ -6148,6 +6170,16 @@
 			(type default)
 		)
 		(uuid "2d5ce566-3e6b-415d-9df0-e6507089d7de")
+	)
+	(wire
+		(pts
+			(xy 134.62 49.53) (xy 134.62 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d9fe52a-9103-4851-8155-75fb1ec03bc9")
 	)
 	(wire
 		(pts
@@ -6861,7 +6893,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 59.69) (xy 134.62 60.96)
+			(xy 140.97 59.69) (xy 140.97 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7201,6 +7233,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 60.96) (xy 140.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eaa929a-1df7-4c81-a348-359afae4489c")
+	)
+	(wire
+		(pts
 			(xy 209.55 143.51) (xy 205.74 143.51)
 		)
 		(stroke
@@ -7431,7 +7473,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 52.07) (xy 134.62 49.53)
+			(xy 140.97 52.07) (xy 140.97 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7618,6 +7660,16 @@
 			(type default)
 		)
 		(uuid "d0530961-dc6d-4f65-aed3-6b4682d343e1")
+	)
+	(wire
+		(pts
+			(xy 134.62 59.69) (xy 134.62 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0eb74d2-9abd-4e70-975e-7ec35366e7c3")
 	)
 	(wire
 		(pts
@@ -8471,7 +8523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00a556dc-ab14-4262-a596-9d0529377f14")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR01"
 			(at 21.59 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8531,7 +8583,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR052")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8549,7 +8601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "020dc2cf-b2ac-4748-9e0d-ebd5dee290b2")
-		(property "Reference" "R24"
+		(property "Reference" "R1"
 			(at 24.13 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8613,7 +8665,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "R24")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8630,7 +8682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04614d3b-a375-4ddb-a0e9-a04705e8ad18")
-		(property "Reference" "C6"
+		(property "Reference" "C10"
 			(at 128.778 53.848 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8694,7 +8746,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "C6")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8712,7 +8764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05e52e5b-2d9e-4dc7-a8e1-80b1587139b1")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR017"
 			(at 121.92 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8773,7 +8825,88 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR08")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 134.62 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06a62413-279b-41ae-a4d1-1468eb8fc045")
+		(property "Reference" "C11"
+			(at 135.128 53.848 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 135.128 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 135.5852 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 134.62 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a715eaec-7dcb-47bf-960b-251eaa276af3")
+		)
+		(pin "1"
+			(uuid "324adabc-77f8-4d8e-9688-4e3cbd2255ef")
+		)
+		(instances
+			(project "IoT"
+				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8791,7 +8924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07604d15-ba6e-4b68-ae9e-fab1ed930757")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 210.185 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8880,7 +9013,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8898,7 +9031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08fe2e37-3ad2-42ed-ba31-d1b0c0dcbf30")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR02"
 			(at 21.59 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -8959,7 +9092,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR053")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9057,7 +9190,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12cd174a-12bb-45e3-ba86-52e16116f0e3")
-		(property "Reference" "C3"
+		(property "Reference" "C7"
 			(at 109.728 53.848 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9121,7 +9254,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "C3")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9139,7 +9272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a2fa09b-c746-4ea4-add2-f6856e74968f")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 153.67 165.4174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9214,7 +9347,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -9232,7 +9365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2141835f-87c1-4bac-abbb-5645cd8f0add")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR011"
 			(at 60.96 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9293,7 +9426,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR059")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9392,7 +9525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29c9e0c4-bb85-4b50-932e-b55c237f4324")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR015"
 			(at 105.41 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9452,7 +9585,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR06")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9470,7 +9603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a5a93bc-c430-4519-bc7c-b664bcc98d21")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR029"
 			(at 218.44 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -9531,7 +9664,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR061")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9629,7 +9762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d4bcb37-acbc-47fb-b627-3e5a4c761285")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR012"
 			(at 66.04 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9689,7 +9822,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR03")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9786,7 +9919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37f9d509-11a8-471f-bd67-951d8ef68601")
-		(property "Reference" "C30"
+		(property "Reference" "C3"
 			(at 66.04 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9850,7 +9983,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "C30")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9868,7 +10001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "394a0aa2-c628-4e28-9966-e2ef88500d7a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR021"
 			(at 170.18 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9928,7 +10061,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR012")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9945,7 +10078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40d32b14-8d48-4487-b583-85dad7146ac0")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 116.078 53.848 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10009,7 +10142,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "C4")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10027,7 +10160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45c166d1-1c13-4af1-a62e-b982da058bb0")
-		(property "Reference" "R7"
+		(property "Reference" "R12"
 			(at 170.18 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10091,7 +10224,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "R7")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10377,7 +10510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4819056a-d525-428e-9780-514be72a7557")
-		(property "Reference" "SW4"
+		(property "Reference" "SW2"
 			(at 35.56 163.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10441,7 +10574,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "SW4")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -10459,7 +10592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a75bd9e-12ed-4418-acc1-841d4f4da432")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR023"
 			(at 182.88 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -10520,7 +10653,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR015")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10537,7 +10670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4afc1fde-39c0-4090-8041-8939546b2f99")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 49.276 109.474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10599,7 +10732,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10617,7 +10750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c34c26c-aa6f-45c6-ba59-d5ab3dd0a4cf")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR020"
 			(at 154.94 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10678,7 +10811,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR011")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10696,7 +10829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e06db9e-9133-480e-9a29-a5a6a587c073")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 171.45 165.4174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10771,7 +10904,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10789,7 +10922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f270d12-13da-478c-9f84-827ef43440e0")
-		(property "Reference" "SW2"
+		(property "Reference" "SW5"
 			(at 67.31 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10853,7 +10986,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "SW2")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -10871,7 +11004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "553bf4ff-9b8d-4bb9-89ee-7a2fa937493d")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR018"
 			(at 144.78 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -10931,7 +11064,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR09")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10949,7 +11082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c41ee11-002f-44df-82db-a8df2b98d0e7")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR028"
 			(at 218.44 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11009,7 +11142,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR051")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11027,7 +11160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "699b5494-75dc-4c0d-afef-dac12c84ce96")
-		(property "Reference" "R22"
+		(property "Reference" "R14"
 			(at 203.2 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11091,7 +11224,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "R22")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -11189,7 +11322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fff96f5-7f1e-466c-83c3-4c7234b1998f")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR04"
 			(at 34.29 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11249,7 +11382,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR054")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11257,7 +11390,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 134.62 55.88 0)
+		(at 140.97 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11266,8 +11399,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7738c22d-1d94-4163-8207-a0fed9eb3bf0")
-		(property "Reference" "C7"
-			(at 135.89 53.594 0)
+		(property "Reference" "C12"
+			(at 142.24 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11278,7 +11411,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 135.89 58.166 0)
+			(at 142.24 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11289,7 +11422,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.5852 59.69 0)
+			(at 141.9352 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11300,7 +11433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 55.88 0)
+			(at 140.97 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11311,7 +11444,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 134.62 55.88 0)
+			(at 140.97 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11330,7 +11463,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "C7")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -11347,7 +11480,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "778649a2-0ffe-4db0-82f6-8948e62d54b6")
-		(property "Reference" "JP6"
+		(property "Reference" "JP3"
 			(at 140.97 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11410,7 +11543,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "JP6")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -11427,7 +11560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b7066af-52b8-462f-8c5b-aa0a4db78ac3")
-		(property "Reference" "JP5"
+		(property "Reference" "JP4"
 			(at 140.716 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11490,7 +11623,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "JP5")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -11508,7 +11641,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7fc211ab-d38b-4c5b-802f-eb6d438e8ca0")
-		(property "Reference" "R28"
+		(property "Reference" "R8"
 			(at 96.52 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11572,7 +11705,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "R28")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11748,7 +11881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "832cc384-e8a9-4a8a-bb81-b5392f1e1727")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 87.63 147.574 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11812,7 +11945,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11830,7 +11963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "832e8418-4f93-465d-9a39-0a30437db4f7")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 27.94 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -11891,7 +12024,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -11909,7 +12042,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8479fadd-b165-4aeb-a3fb-0bce88232007")
-		(property "Reference" "C29"
+		(property "Reference" "C2"
 			(at 66.04 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11973,7 +12106,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "C29")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -11991,7 +12124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8847dcc1-8512-4254-985a-c2a449ead7ae")
-		(property "Reference" "SW1"
+		(property "Reference" "SW4"
 			(at 46.99 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12055,7 +12188,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "SW1")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -12073,7 +12206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "884fc987-0361-48d4-8656-86b79e1835ce")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR025"
 			(at 198.12 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -12134,7 +12267,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR016")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12152,7 +12285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "886f37cd-faff-41df-b5d8-974f702f7d71")
-		(property "Reference" "R25"
+		(property "Reference" "R2"
 			(at 36.83 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12216,7 +12349,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "R25")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -12234,7 +12367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a2bcc28-fa09-4a5a-8e38-1d364759c5fa")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 57.15 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -12295,7 +12428,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -12437,7 +12570,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92ec139a-9dbc-4745-8bb1-a39e2f5adaff")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR026"
 			(at 205.74 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -12497,7 +12630,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR062")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -12515,7 +12648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "937b64b7-aa61-404f-8e8f-e65d28acc7e2")
-		(property "Reference" "R4"
+		(property "Reference" "R9"
 			(at 143.51 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12579,7 +12712,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12597,7 +12730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93e02229-8bd9-4175-8585-2ce757930299")
-		(property "Reference" "D16"
+		(property "Reference" "D1"
 			(at 106.68 35.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12661,7 +12794,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "D16")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12679,7 +12812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "952a93ae-694c-43fd-aa36-4cf2982aefeb")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 161.29 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12743,7 +12876,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -12761,7 +12894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96fea407-00b1-469c-9f08-3ea1e5d137df")
-		(property "Reference" "R5"
+		(property "Reference" "R10"
 			(at 152.4 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12825,7 +12958,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -13022,7 +13155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "990b2bec-5479-495c-97dc-3c11db14cacc")
-		(property "Reference" "SW3"
+		(property "Reference" "SW1"
 			(at 22.86 163.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13086,7 +13219,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "SW3")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -13193,7 +13326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0c4e51d-9ac8-4728-8355-faf809cab9e9")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR019"
 			(at 146.05 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -13254,7 +13387,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR010")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13272,7 +13405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2f1dc19-a3f2-4cec-a5c3-e2c1a0abf0a7")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR010"
 			(at 59.69 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -13333,7 +13466,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR058")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13351,7 +13484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a786c08f-21d3-437d-85b0-a1f1db288b5c")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR07"
 			(at 45.72 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -13412,7 +13545,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR057")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13430,7 +13563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0abfffe-2085-4361-b990-01cfbf71aebb")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 162.56 165.4174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13505,7 +13638,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -13523,7 +13656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1276ab8-e519-47fb-a303-cf45d7857a3d")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR06"
 			(at 45.72 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13583,7 +13716,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR056")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -13601,7 +13734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b63540c3-1fcb-4c9f-93ab-4d1c437eebf9")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR05"
 			(at 34.29 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -13662,7 +13795,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR055")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -13679,7 +13812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b63f9523-d94c-41f1-a960-fb73fd551549")
-		(property "Reference" "C32"
+		(property "Reference" "C5"
 			(at 67.056 103.124 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13743,7 +13876,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "C32")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -13761,7 +13894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b93766dc-a845-4228-a51a-8fc86b491b13")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR022"
 			(at 175.26 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -13822,7 +13955,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR013")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -13919,7 +14052,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc303996-0720-43fb-bb9e-6447427c1221")
-		(property "Reference" "C5"
+		(property "Reference" "C9"
 			(at 122.428 53.848 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13983,7 +14116,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "C5")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -14000,7 +14133,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c077fe89-0409-4c78-b217-d56dfac77e53")
-		(property "Reference" "JP7"
+		(property "Reference" "JP1"
 			(at 44.45 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14063,7 +14196,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "JP7")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -14081,7 +14214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c19f6413-bedb-4bdc-9645-5610ddce1e6f")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR027"
 			(at 218.44 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -14142,7 +14275,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR017")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14241,7 +14374,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2bb27c1-6c52-46d6-b8d7-736534107001")
-		(property "Reference" "C31"
+		(property "Reference" "C4"
 			(at 67.056 95.758 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14305,7 +14438,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "C31")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -14323,7 +14456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3561f5c-90f4-45a2-bb14-7b9a95d558c6")
-		(property "Reference" "R27"
+		(property "Reference" "R7"
 			(at 101.6 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14387,7 +14520,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "R27")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14405,7 +14538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4635929-754b-4f3c-b6ee-178673240072")
-		(property "Reference" "R8"
+		(property "Reference" "R13"
 			(at 173.99 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14467,7 +14600,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "R8")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14485,7 +14618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c72d6ea1-7f19-47ca-99dc-ad5398f94fa9")
-		(property "Reference" "R23"
+		(property "Reference" "R15"
 			(at 212.09 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14549,7 +14682,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "R23")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -14567,7 +14700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c964c061-ec7a-47e3-a36e-00ed23c293fd")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 49.53 116.586 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14629,7 +14762,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14647,7 +14780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca4e086b-ea1f-435d-8963-d083836910bd")
-		(property "Reference" "SW5"
+		(property "Reference" "SW3"
 			(at 46.99 163.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14711,7 +14844,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "SW5")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -14728,7 +14861,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca6d020c-384b-4d65-87a8-02a3cb9ed6e9")
-		(property "Reference" "JP8"
+		(property "Reference" "JP2"
 			(at 44.196 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14791,7 +14924,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "JP8")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -14809,7 +14942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdddcb2f-d6e5-4d2c-9bce-be20fd6cc56c")
-		(property "Reference" "R26"
+		(property "Reference" "R3"
 			(at 48.26 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14873,7 +15006,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "R26")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -14890,7 +15023,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d118cc1f-18a6-407f-98a5-27efcf3ce559")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR024"
 			(at 199.39 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -14950,7 +15083,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR014")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -14968,7 +15101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d312e9d4-6247-4dec-8307-9ceffeb0d85b")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 144.78 165.4174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15043,7 +15176,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -15061,7 +15194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db8c61dd-200f-437a-9e27-5dceb5dcb10e")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR030"
 			(at 231.14 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -15122,7 +15255,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR018")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -15140,7 +15273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e16c91c0-ed54-451b-a8d0-509a37ab5b44")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR014"
 			(at 99.06 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -15201,7 +15334,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR060")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15219,7 +15352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e833f451-6664-46ff-8d83-01236e40c94a")
-		(property "Reference" "R1"
+		(property "Reference" "R6"
 			(at 68.58 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15283,7 +15416,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -15302,7 +15435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec2d5407-0ffa-4233-8a65-932abac6d25d")
-		(property "Reference" "J12"
+		(property "Reference" "J6"
 			(at 226.06 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15372,7 +15505,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "J12")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -15390,7 +15523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef466a8c-068b-42a7-a18b-39551c426044")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR013"
 			(at 66.04 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -15451,7 +15584,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR04")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -15468,7 +15601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa90a550-27a5-4fc8-9d4e-f5574385acf6")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 211.455 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15549,7 +15682,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -15567,7 +15700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd161cc0-7b00-4725-a416-6fca1a0977df")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR08"
 			(at 48.26 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -15628,7 +15761,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR01")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -15646,7 +15779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffe2fc62-accc-43a0-ba05-8ddd533731ea")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR016"
 			(at 106.68 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -15707,7 +15840,7 @@
 		(instances
 			(project "IoT"
 				(path "/f5d15b22-d91e-4545-b7af-da23c1769042"
-					(reference "#PWR07")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
